@@ -1,0 +1,60 @@
+﻿@page "/Menu"
+    <style>
+        .topnav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+
+            .topnav a {
+                float: left;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+
+                .topnav a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
+
+
+                .topnav a.active {
+                    background-color: #04AA6D;
+                    color: white;
+                }
+    </style>
+
+
+    <nav>
+        <div class="topnav">
+            <a class="active" href="#menu">Menu</a>
+            <a href="#reservation">Reservation</a>
+            <a href="#order">Order</a>
+            <a href="#item">Item</a>
+            <a href="#Login"><b>Login</b></a>
+            <a href="#Sign up"><b>Register</b></a>
+        </div>
+    </nav>
+    <center><h5><b>Food Menu</b></h5></center>
+    <br />
+    <p>In a restaurant, the menu is a list of food and beverages offered to customers and the prices.<br />All sandwhiches are served with fries.All burgers are served with tomatos andhouse cut fries, <br />potato fries,side tossed salad available for R2 each.</p>
+    <center>
+        <p style="color: white; background-color: green; margin-left: 400px; margin-right: 400px; margin-top: 20px;"><b>Order Information</b></p>
+        <p>Number of items added:<br />1Item(s)<br />Total Price: 40 Rs</p>
+        <p style="color: white; background-color: red; margin-left: 400px; margin-right: 400px; margin-top: 20px;"><b>View My Order</b></p>
+    </center>
+    <br />
+    <img src="/Image/Burger.jpg" />
+    <span>
+        <img src="/Image/Pizza.jpg" />
+    </span>
+    <span>
+        <img src="/Image/Sandwitch.jpg" />
+    </span>
+    @code {
+
+    }
